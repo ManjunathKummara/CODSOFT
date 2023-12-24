@@ -31,7 +31,7 @@ for i in range(totalRounds):
         elif computerChoice == "Rock":
             result = "You won this round!"
             userScore += 1
-   elif userChoice == "Scissors":
+    elif userChoice == "Scissors":
         if computerChoice == "Rock":
             result = "Computer won this round!"
             computerScore += 1
